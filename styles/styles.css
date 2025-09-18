@@ -27,8 +27,9 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-p {
+main p {
     padding: 0;
+    background-color: var(--background-color);
 }
 
 main {
