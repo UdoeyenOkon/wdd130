@@ -29,7 +29,7 @@ main img {
 
 main p {
     padding: 0;
-    background-color: var(--background-color);
+    color: black;
 }
 
 main {
