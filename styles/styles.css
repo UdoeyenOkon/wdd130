@@ -73,6 +73,9 @@ footer {
     margin: 1rem;
     padding: 1rem;
     font-size: var(--font-size);
-    background-color: orange
-        
+    background-color: orange 
+}
+
+ul, li a {
+    color: var(--color);
 }
