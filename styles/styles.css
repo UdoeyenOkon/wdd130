@@ -13,16 +13,28 @@
 nav {
     background-color: var(--background-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 nav a {
     color: var(--color);
     display: block;
-    padding: 20px;
+    padding: 0.5px;
+    text-decoration: none;
+    background-color: rgb(21, 19, 19);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    font-size: 1.1rem;
+  
 }
 
 h1 {
     color: var(--background-color);
+    border-bottom: solid gray;
+    padding-top: 5px;
+    
 }
 
 main img {
@@ -35,13 +47,33 @@ main img {
 }
 
 main p {
-    padding: 0;
+    padding: 15px;
     color: black;
 }
 
 main {
     max-width: 840px;
 }
+
+header, footer .grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+    aside {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        position: relative;
+    }
+    main {
+        grid-column: 2/3;
+        margin: 1rem;
+    }
+
 
 aside {
     width: 20rem;
@@ -62,7 +94,6 @@ aside h2 {
 
 footer {
     background-color: var(--background-color);
-    margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--text-align);
     color: var(--color);
