@@ -116,7 +116,7 @@ nav li a {
     text-decoration: none;
     font-size: 1.1rem;
     color: #fff;
-    border: black solid;
+    border: rgb(182, 175, 175) solid;
 }
 
 header {
