@@ -144,11 +144,11 @@ header {
 
 .grid-3 figcaption {
     font-size: 0.75rem;
-    text-align: center;
+    text-align:start;
     
 }
 
-.grid-3 figure, .grid-3 figcaption {
+.grid-3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
