@@ -16,7 +16,7 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+  
 }
 
 header, main, footer {
@@ -29,6 +29,7 @@ h1, h2 {
     color: #fff;
     box-sizing: border-box;
     background-color: red;
+    text-align: center;
 }
 
 nav, p, section, article {
@@ -79,10 +80,11 @@ article {
 header img {
     width: 20%;
     height: auto;
+    padding: 10px 20px;
 }
 
 footer nav a img {
-    width: 5%;
+    width: 25%;
     height: auto;
     
 }
@@ -90,4 +92,75 @@ footer nav a img {
 footer {
     border-top: gray solid;
 
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: end;
+    align-items: stretch;
+}
+
+nav li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+    border: black solid;
+}
+
+header {
+    background-color: gray;
+}
+
+.grid-2 img {
+    width: 225px;
+    border: #e9c46a;
+    padding: 0 0 0 30px;
+    box-shadow: rebeccapurple;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.grid-3 img {
+    width: 65%;
+    border: #e9c46a;
+    box-shadow: rebeccapurple;
+}
+
+.grid-3 figcaption {
+    font-size: 0.75rem;
+    text-align: center;
+    
+}
+
+.grid-3 figure, .grid-3 figcaption {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    order: 1;
+    padding: 5px;
+    margin: 0 45px
+}
+
+.flex {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: gray;
+    justify-items: center;
+    color: #fff;
 }
