@@ -26,9 +26,9 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: #fff;
+    color: #070404;
     box-sizing: border-box;
-    background-color: red;
+    background-color: #ff0000;
     text-align: center;
 }
 
@@ -90,7 +90,7 @@ footer nav a img {
 }
 
 footer {
-    border-top: gray solid;
+    border-top: rgb(16, 14,) solid;
 
     
 }
@@ -120,7 +120,7 @@ nav li a {
 }
 
 header {
-    background-color: gray;
+    background-color: rgb(16, 14, 14);
 }
 
 .grid-2 img {
@@ -160,7 +160,7 @@ header {
 .flex {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    background-color: gray;
+    background-color: rgb(16, 14, 14);
     justify-items: center;
     color: #fff;
 }
