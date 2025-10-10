@@ -194,6 +194,11 @@ header {
     margin: 0 45px
 }
 
+.grid-6 figcaption {
+    text-align: center;
+    padding-right: 75px;
+}
+
 .hero-1 {
     display: block;
     border: 1px solid rgba(165, 42, 42, 0.674);
