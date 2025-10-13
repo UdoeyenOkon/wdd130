@@ -212,7 +212,7 @@ header {
     background-color: #fff;
 }
 
-form {
+.grid-4 form {
     display: grid;
     grid-template-columns: 15px 50px 15px 1fr;
     width: 450px;
@@ -313,11 +313,133 @@ form {
         background-color: rgb(164, 209, 209);
     }
 
-form input {
+    form input {
     padding: 5px;
-}
+    }
 
 .gride-4 iframe {
     border-style: 0;
     box-shadow: none; 
 }
+
+.our-purpose img {
+    width: 20%;
+}
+
+.our-offering img {
+    width: 30%;
+}
+
+.servives-newsletter-offerrings {
+    display: grid;
+    grid-template-columns: 300px 320px 220px;
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+}
+    .our-purpose {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .newsletter {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .our-offering {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+.form-newsletter {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1frr;
+    width: 280px
+    }
+        .form-newsletter-name-label {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .form-newsletter-name-input {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        .form-newsletter-email-label {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .form-newsletter-email-input {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }  
+        .form-newsletter button {
+            grid-column: 3/4;
+            grid-row: 1/3;
+        } 
+
+.home-page-call {
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0cap;
+    margin-bottom: 10px;
+    padding: 0cap;
+  }
+
+.home-page-call a {
+    text-decoration: none;
+    display: block;
+    background-color: #e0d8c6;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.home-page-call p{
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+
+.form-newsletter div {
+   padding: 3px;
+    }
+
+
+
+.trips img {
+    width: 25%;
+}
+.trips {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    font-size: small
+}
+.trips div {
+    padding-bottom: 40px;
+}
+.trips p {
+    margin: 0cap;
+}
+.trip-page h1 {
+    background-color:white;
+    color: black;
+    padding: 0cap;
+    text-align: center;
+    position: relative;
+}
+
+table {
+    background: #e9c46a;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-style: dotted;
+}
+tbody {
+    text-align: center;
+    font-size: x-small;
+}
+
